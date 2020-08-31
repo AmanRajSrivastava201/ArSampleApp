@@ -43,3 +43,7 @@ dependencies {
 }
 apply plugin: 'com.google.ar.sceneform.plugin'
 
+//sceneform.asset('sampledata/muffin/blueberry muffin.obj',
+//        'default',
+//        'sampledata/muffin/blueberry muffin.sfa',
+//        'src/main/res/raw/muffin')

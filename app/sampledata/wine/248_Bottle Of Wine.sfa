@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Mat',
+      parameters: [
+        {
+          baseColor: '248_Bottle Of Wine',
+        },
+        {
+          baseColorTint: [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/wine/248_Bottle Of Wine.obj',
+    name: '248_Bottle Of Wine',
+    recenter: 'root',
+    scale: 0.048371999999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata/wine/248_Bottle Of Wine.png',
+      name: '248_Bottle Of Wine',
+      pipeline_name: '248_Bottle Of Wine.png',
+    },
+  ],
+  version: '0.54:2',
+}
